@@ -1,1 +1,11 @@
----
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test-service
+  description: A simple test service.
+  tags:
+    - test
+spec:
+  type: service
+  lifecycle: experimental
+  owner: user:guest
