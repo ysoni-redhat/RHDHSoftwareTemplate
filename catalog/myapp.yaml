@@ -22,7 +22,6 @@ metadata:
     backstage.io/kubernetes-namespace: demo-project
     backstage.io/kubernetes-label-selector: 'app=simple-app'
 spec:
-  subcomponentOf: myapp-system
   type: website
   system: myapp
   owner: myapp-dev-team
