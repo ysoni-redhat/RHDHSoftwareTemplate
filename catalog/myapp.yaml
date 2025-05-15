@@ -16,7 +16,7 @@ metadata:
       url: https://myapp.example.slack.com
   annotations:
     argocd/app-name: 'myapp'
-    backstage.io/kubernetes-id: 'simple-deployment'
+    backstage.io/kubernetes-id: simple-deployment
     github.com/project-slug: myorg/myapp
     quay.io/repository-slug: myorg/myapp
     backstage.io/kubernetes-namespace: demo-project
